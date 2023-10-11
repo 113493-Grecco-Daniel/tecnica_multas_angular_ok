@@ -15,7 +15,6 @@ export class ListaMultasComponent implements OnInit {
   errorMessage: string | null = null;
   fechaPago: string = new Date().toISOString().slice(0, 10);
 
-
   constructor(private multasService: MultasService) {}
 
   ngOnInit(): void {

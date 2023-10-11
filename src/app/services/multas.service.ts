@@ -111,9 +111,7 @@ fecha_pago: '',
   importe: 120000,
   fecha_pago: '2023-08-21',
   },
-
 ];
-
 
   constructor() { }
 

@@ -120,6 +120,8 @@ getMultas(){
 }
 
 
+
+
 updateMulta(multa : Multa){
   let indice = this.lista_multas.indexOf(multa);
   this.lista_multas[indice] = multa;

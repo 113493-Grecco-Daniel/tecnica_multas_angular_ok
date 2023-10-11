@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component , OnInit} from '@angular/core';
+import { MultasService } from './services/multas.service';
+import { Multa } from './class/multa';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'tecnica_multas';
+
 }
